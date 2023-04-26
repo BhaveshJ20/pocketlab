@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Bold.eot');
+    src: url('../fonts/Geomanist-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Bold.woff2') format('woff2'), url('../fonts/Geomanist-Bold.woff') format('woff'), url('../fonts/Geomanist-Bold.ttf') format('truetype'), url('../fonts/Geomanist-Bold.svg#Geomanist-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Regular.eot');
+    src: url('../fonts/Geomanist-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Regular.woff2') format('woff2'), url('../fonts/Geomanist-Regular.woff') format('woff'), url('../fonts/Geomanist-Regular.ttf') format('truetype'), url('../fonts/Geomanist-Regular.svg#Geomanist-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Medium.eot');
+    src: url('../fonts/Geomanist-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Medium.woff2') format('woff2'), url('../fonts/Geomanist-Medium.woff') format('woff'), url('../fonts/Geomanist-Medium.ttf') format('truetype'), url('../fonts/Geomanist-Medium.svg#Geomanist-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Light.eot');
+    src: url('../fonts/Geomanist-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Light.woff2') format('woff2'), url('../fonts/Geomanist-Light.woff') format('woff'), url('../fonts/Geomanist-Light.ttf') format('truetype'), url('../fonts/Geomanist-Light.svg#Geomanist-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Thin.eot');
+    src: url('../fonts/Geomanist-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Thin.woff2') format('woff2'), url('../fonts/Geomanist-Thin.woff') format('woff'), url('../fonts/Geomanist-Thin.ttf') format('truetype'), url('../fonts/Geomanist-Thin.svg#Geomanist-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-Black.eot');
+    src: url('../fonts/Geomanist-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Black.woff2') format('woff2'), url('../fonts/Geomanist-Black.woff') format('woff'), url('../fonts/Geomanist-Black.ttf') format('truetype'), url('../fonts/Geomanist-Black.svg#Geomanist-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../fonts/Geomanist-ExtraLight.eot');
+    src: url('../fonts/Geomanist-ExtraLight.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-ExtraLight.woff2') format('woff2'), url('../fonts/Geomanist-ExtraLight.woff') format('woff'), url('../fonts/Geomanist-ExtraLight.ttf') format('truetype'), url('../fonts/Geomanist-ExtraLight.svg#Geomanist-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist Ultra';
+    src: url('../fonts/Geomanist-Ultra.eot');
+    src: url('../fonts/Geomanist-Ultra.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Ultra.woff2') format('woff2'), url('../fonts/Geomanist-Ultra.woff') format('woff'), url('../fonts/Geomanist-Ultra.ttf') format('truetype'), url('../fonts/Geomanist-Ultra.svg#Geomanist-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geomanist Book';
+    src: url('../fonts/Geomanist-Book.eot');
+    src: url('../fonts/Geomanist-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Geomanist-Book.woff2') format('woff2'), url('../fonts/Geomanist-Book.woff') format('woff'), url('../fonts/Geomanist-Book.ttf') format('truetype'), url('../fonts/Geomanist-Book.svg#Geomanist-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* ========================================
+   Brand colors 
+   ======================================== */
+
+
+/************ Primary ********/
+
+.theme-primary-bg {
+    background-color: #6590c7;
+}
+
+
+/************ Secondary ********/
+
+.theme-secondary-bg {
+    background-color: #C35F63;
+}
+
+
+/************ Background ********/
+
+.iron-light-bg {
+    background-color: #f5f5f5;
+}
+
+
+/************ Text ********/
+
+.theme-primary-text {
+    color: #6590c7;
+}
+
+.theme-secondary-text {
+    color: #C35F63;
+}
+
+.theme-body-text {
+    color: #545454;
+}
+
+.gray-200 {
+    color: #ababab;
+}
+
+.gray-300 {
+    color: #6a6a6a;
+}
+
+.red-error-text {
+    color: #cd454e;
+}
+
+.btn {
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0.563rem 0.75rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #6590c7;
+    border-color: #6590c7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #2876D6;
+    border-color: #2876D6;
+    box-shadow: none;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #C35F63;
+    border-color: #C35F63;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+    color: #ffffff;
+    background-color: #D74B5B;
+    border-color: #D74B5B;
+}
+
+.btn-outline-blue {
+    background-color: #ffffff;
+    color: #6590c7;
+    border-radius: 1.5rem;
+    border: 3px solid #6590c7;
+}
+
+.btn-outline-blue:hover {
+    background-color: #6590c7;
+    color: #ffffff;
+}
+
+.btn.rounded {
+    border-radius: 3.5rem !important;
+}
+
+.btn.medium {
+    min-width: 190px;
+}
+
+.btn.large {
+    min-width: 255px;
+}
+
+.btn-lg {
+    padding: 1.157rem 1.6rem;
+}
+
+.blue-box {
+    border: 1px solid #6590c7;
+    -webkit-box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+    -moz-box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+    box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+    border-radius: 0.25rem;
+}
+
+
+/************ Custom_checkbox ********/
+
+.custom_check.form-check {
+    padding-left: 0em;
+}
+
+.custom_check.form-check-inline {
+    margin-right: 0rem;
+    text-align: center;
+}
+
+.custom_check.form-check .form-check-input[type=checkbox] {
+    border-radius: 0em;
+}
+
+.custom_check.form-check .form-check-input:checked[type=checkbox] {
+    background-image: none;
+}
+
+.custom_check.form-check .form-check-input {
+    float: none;
+    margin-left: 0em;
+    border: 2px solid #bcbcbc;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+.custom_check.form-check .form-check-input:checked {
+    background-color: #6590c7;
+    border: 2px solid #6590c7;
+    -webkit-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custom_check.form-check .form-check-input:focus {
+    -webkit-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custom_check.form-check .form-check-label {
+    display: block;
+    font-size: 0.75rem;
+    margin-bottom: 0.3125rem;
+    color: #ababab;
+}
+
+.custom-check-box.btn:hover {
+    color: #6590c7;
+}
+
+.custom-check-wrap {
+    width: 92px;
+    height: 92px;
+}
+
+.custom-check-box {
+    color: rgba(112, 112, 112, 0.5);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.25rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 1px solid #cfcfcf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+}
+
+.custom-check-box strong {
+    font-size: 1.5625rem;
+    font-weight: 500;
+    display: block;
+}
+
+.custom-check-box span {
+    font-size: 0.6875rem;
+    line-height: 1.2;
+    font-weight: 400;
+    display: block;
+}
+
+.btn-check:checked+.custom-check-box {
+    background-color: #ffffff;
+    border: 1px solid #6590c7;
+    color: #6590c7;
+    -webkit-box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+    -moz-box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+    box-shadow: 0 3px 5px 0px rgba(101, 144, 199, 0.4);
+}
+
+.input-count {
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    width: 80px;
+}
+
+.input-count .form-control {
+    border: 0px;
+    border-radius: 0rem;
+    display: inline-block;
+    width: 40px;
+    padding: 0.35rem;
+    text-align: center;
+}
+
+.input-count span {
+    display: inline-block;
+    font-size: 0.8125rem;
+    color: #ababab;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-control {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #d8d8d8;
+    border-radius: 0rem;
+    padding-left: 0rem;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.form-check-input:checked {
+    background-color: #cd454e;
+    border-color: #cd454e;
+}
